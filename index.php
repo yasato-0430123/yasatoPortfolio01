@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php 
-print 'こんにちは、世界';
+print 'こんにちは、世界 編集をしました1050';
 ?>
 </body>
 </html>
