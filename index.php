@@ -85,11 +85,11 @@ div {
 <h1>ちょっと一休みのカフェを探そう</h1>
 <div class="img-wrap">
 <img src="./images/pic1.png" alt="" >
-<h2>疲れましたか？</h2>
+<h1>疲れましたか？</h1>
 </div>
 <div class="img-wrap2">
 <img src="./images/pic2.png" alt="">
-<h2>どこかで休んで行きましょうかね</h2>
+<h1>どこかで休んで行きましょうかね</h1>
 </div>
 
 <div class="img-wrap3">
