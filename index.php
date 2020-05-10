@@ -3,7 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+  <style type="text/css">
+body, table {
+  text-align: center;
+  font-size: 0.7rem; }
+
+div {
+  margin: 1.5rem 0; }
+
+.tabel {
+  margin: 2rem auto; }
+
+.img-wrap {
+  overflow: hidden;
+  position: relative; }
+  .img-wrap :before {
+    -webkit-animation: img-wrap 5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            animation: img-wrap 5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    background: #fff;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1; }
+@-webkit-keyframes img-wrap {
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); } }
+@keyframes img-wrap {
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); } }
+.img-wrap2 {
+  overflow: hidden;
+  position: relative; }
+  .img-wrap2 :before {
+    -webkit-animation: img-wrap 10s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            animation: img-wrap 10s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    background: #fff;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1; }
+@keyframes img-wrap {
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); } }
+.img-wrap3 {
+  overflow: hidden;
+  position: relative; }
+  .img-wrap3 :before {
+    -webkit-animation: img-wrap 15s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            animation: img-wrap 15s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    background: #fff;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1; }
+@keyframes img-wrap {
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); } }
+#p2 {
+  visibility: hidden; }
+
+  </style>
   <title>ちょっと一休みのカフェを探そう</title>
 </head>
 <body>
