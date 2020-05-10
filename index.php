@@ -108,7 +108,7 @@ div {
 <p><button id="clickBtn2" onClick="window.open('https://www.google.com/maps/search/%E3%82%AB%E3%83%95%E3%82%A7/','_blank')" >GoogleMapを開いてちょっと詳しく見る</button></p>
 
 
-<p>んで、どんなメニューがあるか<br>御所望であれば、データベースから探してきますが、<br>確認したいカフェのメニューはありますか？<br>ごめんなさい、個人店は省略します</p>
+<p>データベースとの連携がうまくいかず、途中までを掲載しています</p>
 
 </div>
 <script type="text/javascript">
