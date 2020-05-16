@@ -1,5 +1,5 @@
 function searchCafe() {
-  document.getElementById("ifr").src="https://www.google.com/maps?output=embed&q=現在地$cafe";
+  document.getElementById("ifr").src="";
   document.getElementById("p2").style.visibility ="visible";
 }
 
